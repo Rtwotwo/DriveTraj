@@ -1,0 +1,613 @@
+{
+  "duration_s": 327.4,
+  "resolution": [
+    2560,
+    1440
+  ],
+  "fps": 30,
+  "navtest_cases": 41,
+  "hugsim_episodes": 51,
+  "chapters": [
+    {
+      "title": "Teaser",
+      "start": 0,
+      "duration": 8.0
+    },
+    {
+      "title": "Overview",
+      "start": 8.0,
+      "duration": 8.0
+    },
+    {
+      "title": "NAVSIM",
+      "start": 16.0,
+      "duration": 71.4
+    },
+    {
+      "title": "HUGSIM \u00b7 Easy",
+      "start": 87.39999999999999,
+      "duration": 60.0
+    },
+    {
+      "title": "HUGSIM \u00b7 Medium",
+      "start": 147.39999999999998,
+      "duration": 60.0
+    },
+    {
+      "title": "HUGSIM \u00b7 Hard",
+      "start": 207.39999999999998,
+      "duration": 60.0
+    },
+    {
+      "title": "HUGSIM \u00b7 Extreme",
+      "start": 267.4,
+      "duration": 60.0
+    }
+  ],
+  "hugsim_selection": [
+    {
+      "dataset": "waymo",
+      "scene": "163453191685_0_200",
+      "mode": "easy_00",
+      "difficulty": "easy",
+      "hd_score": 99.64285714285715,
+      "rc": 100.0,
+      "lane": 0,
+      "chapter_offset_s": 0.0,
+      "used_s": 20.0
+    },
+    {
+      "dataset": "nuscenes",
+      "scene": "scene-0661",
+      "mode": "easy_00",
+      "difficulty": "easy",
+      "hd_score": 97.95918367346937,
+      "rc": 100.0,
+      "lane": 0,
+      "chapter_offset_s": 20.0,
+      "used_s": 10.5
+    },
+    {
+      "dataset": "waymo",
+      "scene": "132384196576_0_200",
+      "mode": "easy_00",
+      "difficulty": "easy",
+      "hd_score": 96.73469387755101,
+      "rc": 100.0,
+      "lane": 0,
+      "chapter_offset_s": 30.5,
+      "used_s": 17.5
+    },
+    {
+      "dataset": "waymo",
+      "scene": "342571611546_0_200",
+      "mode": "easy_00",
+      "difficulty": "easy",
+      "hd_score": 96.31336405529954,
+      "rc": 100.0,
+      "lane": 0,
+      "chapter_offset_s": 48.0,
+      "used_s": 7.75
+    },
+    {
+      "dataset": "nuscenes",
+      "scene": "scene-0528",
+      "mode": "easy_00",
+      "difficulty": "easy",
+      "hd_score": 96.19047619047618,
+      "rc": 100.0,
+      "lane": 0,
+      "chapter_offset_s": 55.75,
+      "used_s": 4.25
+    },
+    {
+      "dataset": "nuscenes",
+      "scene": "scene-0167",
+      "mode": "easy_00",
+      "difficulty": "easy",
+      "hd_score": 99.0314769975787,
+      "rc": 100.0,
+      "lane": 1,
+      "chapter_offset_s": 0.0,
+      "used_s": 14.75
+    },
+    {
+      "dataset": "nuscenes",
+      "scene": "scene-0010",
+      "mode": "easy_00",
+      "difficulty": "easy",
+      "hd_score": 98.0,
+      "rc": 100.0,
+      "lane": 1,
+      "chapter_offset_s": 14.75,
+      "used_s": 12.5
+    },
+    {
+      "dataset": "waymo",
+      "scene": "938501362409_0_200",
+      "mode": "easy_00",
+      "difficulty": "easy",
+      "hd_score": 97.14285714285714,
+      "rc": 100.0,
+      "lane": 1,
+      "chapter_offset_s": 27.25,
+      "used_s": 17.5
+    },
+    {
+      "dataset": "waymo",
+      "scene": "398895700423_0_200",
+      "mode": "easy_00",
+      "difficulty": "easy",
+      "hd_score": 96.50145772594752,
+      "rc": 100.0,
+      "lane": 1,
+      "chapter_offset_s": 44.75,
+      "used_s": 12.25
+    },
+    {
+      "dataset": "kitti360",
+      "scene": "0000_10320_10520",
+      "mode": "easy_00",
+      "difficulty": "easy",
+      "hd_score": 96.11650485436893,
+      "rc": 100.0,
+      "lane": 1,
+      "chapter_offset_s": 57.0,
+      "used_s": 3.0
+    },
+    {
+      "dataset": "waymo",
+      "scene": "102751446607_0_200",
+      "mode": "easy_00",
+      "difficulty": "easy",
+      "hd_score": 98.7012987012987,
+      "rc": 100.0,
+      "lane": 2,
+      "chapter_offset_s": 0.0,
+      "used_s": 22.0
+    },
+    {
+      "dataset": "waymo",
+      "scene": "150623512729_0_200",
+      "mode": "easy_00",
+      "difficulty": "easy",
+      "hd_score": 97.8021978021978,
+      "rc": 100.0,
+      "lane": 2,
+      "chapter_offset_s": 22.0,
+      "used_s": 16.25
+    },
+    {
+      "dataset": "nuscenes",
+      "scene": "scene-0013",
+      "mode": "easy_00",
+      "difficulty": "easy",
+      "hd_score": 96.51567944250871,
+      "rc": 100.0,
+      "lane": 2,
+      "chapter_offset_s": 38.25,
+      "used_s": 10.25
+    },
+    {
+      "dataset": "nuscenes",
+      "scene": "scene-0166",
+      "mode": "easy_00",
+      "difficulty": "easy",
+      "hd_score": 96.19047619047619,
+      "rc": 100.0,
+      "lane": 2,
+      "chapter_offset_s": 48.5,
+      "used_s": 11.25
+    },
+    {
+      "dataset": "waymo",
+      "scene": "881121006469_0_200",
+      "mode": "easy_00",
+      "difficulty": "easy",
+      "hd_score": 95.51020408163265,
+      "rc": 100.0,
+      "lane": 2,
+      "chapter_offset_s": 59.75,
+      "used_s": 0.25
+    },
+    {
+      "dataset": "nuscenes",
+      "scene": "scene-0166",
+      "mode": "medium_01",
+      "difficulty": "medium",
+      "hd_score": 100.0,
+      "rc": 100.0,
+      "lane": 0,
+      "chapter_offset_s": 0.0,
+      "used_s": 12.5
+    },
+    {
+      "dataset": "waymo",
+      "scene": "148697329729_0_200",
+      "mode": "medium_02",
+      "difficulty": "medium",
+      "hd_score": 99.72260748959779,
+      "rc": 100.0,
+      "lane": 0,
+      "chapter_offset_s": 12.5,
+      "used_s": 25.75
+    },
+    {
+      "dataset": "pandaset",
+      "scene": "039",
+      "mode": "medium_02",
+      "difficulty": "medium",
+      "hd_score": 99.3920972644377,
+      "rc": 100.0,
+      "lane": 0,
+      "chapter_offset_s": 38.25,
+      "used_s": 11.75
+    },
+    {
+      "dataset": "kitti360",
+      "scene": "0000_10320_10520",
+      "mode": "medium_00",
+      "difficulty": "medium",
+      "hd_score": 99.37282229965157,
+      "rc": 100.0,
+      "lane": 0,
+      "chapter_offset_s": 50.0,
+      "used_s": 10.0
+    },
+    {
+      "dataset": "waymo",
+      "scene": "163453191685_0_200",
+      "mode": "medium_01",
+      "difficulty": "medium",
+      "hd_score": 100.0,
+      "rc": 100.0,
+      "lane": 1,
+      "chapter_offset_s": 0.0,
+      "used_s": 27.0
+    },
+    {
+      "dataset": "waymo",
+      "scene": "102751446607_0_200",
+      "mode": "medium_02",
+      "difficulty": "medium",
+      "hd_score": 99.55634427684117,
+      "rc": 100.0,
+      "lane": 1,
+      "chapter_offset_s": 27.0,
+      "used_s": 33.0
+    },
+    {
+      "dataset": "waymo",
+      "scene": "342571611546_0_200",
+      "mode": "medium_01",
+      "difficulty": "medium",
+      "hd_score": 100.0,
+      "rc": 100.0,
+      "lane": 2,
+      "chapter_offset_s": 0.0,
+      "used_s": 31.0
+    },
+    {
+      "dataset": "waymo",
+      "scene": "132384196576_0_200",
+      "mode": "medium_01",
+      "difficulty": "medium",
+      "hd_score": 99.41690962099126,
+      "rc": 100.0,
+      "lane": 2,
+      "chapter_offset_s": 31.0,
+      "used_s": 24.5
+    },
+    {
+      "dataset": "waymo",
+      "scene": "166085257829_0_200",
+      "mode": "medium_02",
+      "difficulty": "medium",
+      "hd_score": 99.32508436445443,
+      "rc": 100.0,
+      "lane": 2,
+      "chapter_offset_s": 55.5,
+      "used_s": 4.5
+    },
+    {
+      "dataset": "nuscenes",
+      "scene": "scene-0013",
+      "mode": "hard_00",
+      "difficulty": "hard",
+      "hd_score": 97.66233766233766,
+      "rc": 100.0,
+      "lane": 0,
+      "chapter_offset_s": 0.0,
+      "used_s": 13.75
+    },
+    {
+      "dataset": "waymo",
+      "scene": "163453191685_0_200",
+      "mode": "hard_00",
+      "difficulty": "hard",
+      "hd_score": 97.00680272108843,
+      "rc": 100.0,
+      "lane": 0,
+      "chapter_offset_s": 13.75,
+      "used_s": 26.25
+    },
+    {
+      "dataset": "nuscenes",
+      "scene": "scene-0062",
+      "mode": "hard_00",
+      "difficulty": "hard",
+      "hd_score": 93.12169312169311,
+      "rc": 100.0,
+      "lane": 0,
+      "chapter_offset_s": 40.0,
+      "used_s": 13.5
+    },
+    {
+      "dataset": "nuscenes",
+      "scene": "scene-0064",
+      "mode": "hard_00",
+      "difficulty": "hard",
+      "hd_score": 90.72948328267475,
+      "rc": 100.0,
+      "lane": 0,
+      "chapter_offset_s": 53.5,
+      "used_s": 6.5
+    },
+    {
+      "dataset": "nuscenes",
+      "scene": "scene-0528",
+      "mode": "hard_01",
+      "difficulty": "hard",
+      "hd_score": 97.32142857142857,
+      "rc": 100.0,
+      "lane": 1,
+      "chapter_offset_s": 0.0,
+      "used_s": 8.0
+    },
+    {
+      "dataset": "nuscenes",
+      "scene": "scene-0071",
+      "mode": "hard_00",
+      "difficulty": "hard",
+      "hd_score": 97.07792207792208,
+      "rc": 100.0,
+      "lane": 1,
+      "chapter_offset_s": 8.0,
+      "used_s": 22.0
+    },
+    {
+      "dataset": "waymo",
+      "scene": "398895700423_0_200",
+      "mode": "hard_01",
+      "difficulty": "hard",
+      "hd_score": 95.51820728291317,
+      "rc": 100.0,
+      "lane": 1,
+      "chapter_offset_s": 30.0,
+      "used_s": 12.75
+    },
+    {
+      "dataset": "waymo",
+      "scene": "166085257829_0_200",
+      "mode": "hard_00",
+      "difficulty": "hard",
+      "hd_score": 93.1216931216931,
+      "rc": 100.0,
+      "lane": 1,
+      "chapter_offset_s": 42.75,
+      "used_s": 17.25
+    },
+    {
+      "dataset": "nuscenes",
+      "scene": "scene-0661",
+      "mode": "hard_00",
+      "difficulty": "hard",
+      "hd_score": 97.17607973421924,
+      "rc": 100.0,
+      "lane": 2,
+      "chapter_offset_s": 0.0,
+      "used_s": 21.5
+    },
+    {
+      "dataset": "nuscenes",
+      "scene": "scene-0010",
+      "mode": "hard_00",
+      "difficulty": "hard",
+      "hd_score": 96.57142857142857,
+      "rc": 100.0,
+      "lane": 2,
+      "chapter_offset_s": 21.5,
+      "used_s": 12.5
+    },
+    {
+      "dataset": "nuscenes",
+      "scene": "scene-0166",
+      "mode": "hard_00",
+      "difficulty": "hard",
+      "hd_score": 94.83282674772036,
+      "rc": 100.0,
+      "lane": 2,
+      "chapter_offset_s": 34.0,
+      "used_s": 11.75
+    },
+    {
+      "dataset": "waymo",
+      "scene": "150623512729_0_200",
+      "mode": "hard_01",
+      "difficulty": "hard",
+      "hd_score": 92.54658385093168,
+      "rc": 100.0,
+      "lane": 2,
+      "chapter_offset_s": 45.75,
+      "used_s": 14.25
+    },
+    {
+      "dataset": "waymo",
+      "scene": "102751446607_0_200",
+      "mode": "extreme_01",
+      "difficulty": "extreme",
+      "hd_score": 97.07401032702238,
+      "rc": 100.0,
+      "lane": 0,
+      "chapter_offset_s": 0.0,
+      "used_s": 20.75
+    },
+    {
+      "dataset": "nuscenes",
+      "scene": "scene-0010",
+      "mode": "extreme_01",
+      "difficulty": "extreme",
+      "hd_score": 91.54518950437317,
+      "rc": 100.0,
+      "lane": 0,
+      "chapter_offset_s": 20.75,
+      "used_s": 12.25
+    },
+    {
+      "dataset": "nuscenes",
+      "scene": "scene-0167",
+      "mode": "extreme_01",
+      "difficulty": "extreme",
+      "hd_score": 89.72431077694236,
+      "rc": 100.0,
+      "lane": 0,
+      "chapter_offset_s": 33.0,
+      "used_s": 14.25
+    },
+    {
+      "dataset": "pandaset",
+      "scene": "039",
+      "mode": "extreme_01",
+      "difficulty": "extreme",
+      "hd_score": 87.68472906403942,
+      "rc": 100.0,
+      "lane": 0,
+      "chapter_offset_s": 47.25,
+      "used_s": 7.25
+    },
+    {
+      "dataset": "pandaset",
+      "scene": "028",
+      "mode": "extreme_01",
+      "difficulty": "extreme",
+      "hd_score": 84.08163265306123,
+      "rc": 100.0,
+      "lane": 0,
+      "chapter_offset_s": 54.5,
+      "used_s": 5.5
+    },
+    {
+      "dataset": "nuscenes",
+      "scene": "scene-0661",
+      "mode": "extreme_01",
+      "difficulty": "extreme",
+      "hd_score": 95.578231292517,
+      "rc": 100.0,
+      "lane": 1,
+      "chapter_offset_s": 0.0,
+      "used_s": 10.5
+    },
+    {
+      "dataset": "waymo",
+      "scene": "938501362409_0_200",
+      "mode": "extreme_01",
+      "difficulty": "extreme",
+      "hd_score": 93.06122448979592,
+      "rc": 100.0,
+      "lane": 1,
+      "chapter_offset_s": 10.5,
+      "used_s": 17.5
+    },
+    {
+      "dataset": "waymo",
+      "scene": "132384196576_0_200",
+      "mode": "extreme_01",
+      "difficulty": "extreme",
+      "hd_score": 89.85507246376811,
+      "rc": 100.0,
+      "lane": 1,
+      "chapter_offset_s": 28.0,
+      "used_s": 17.25
+    },
+    {
+      "dataset": "nuscenes",
+      "scene": "scene-0528",
+      "mode": "extreme_01",
+      "difficulty": "extreme",
+      "hd_score": 88.9400921658986,
+      "rc": 100.0,
+      "lane": 1,
+      "chapter_offset_s": 45.25,
+      "used_s": 7.75
+    },
+    {
+      "dataset": "waymo",
+      "scene": "398895700423_0_200",
+      "mode": "extreme_01",
+      "difficulty": "extreme",
+      "hd_score": 86.28571428571428,
+      "rc": 100.0,
+      "lane": 1,
+      "chapter_offset_s": 53.0,
+      "used_s": 7.0
+    },
+    {
+      "dataset": "nuscenes",
+      "scene": "scene-0166",
+      "mode": "extreme_01",
+      "difficulty": "extreme",
+      "hd_score": 95.12987012987011,
+      "rc": 100.0,
+      "lane": 2,
+      "chapter_offset_s": 0.0,
+      "used_s": 11.0
+    },
+    {
+      "dataset": "waymo",
+      "scene": "150623512729_0_200",
+      "mode": "extreme_01",
+      "difficulty": "extreme",
+      "hd_score": 92.03747072599532,
+      "rc": 100.0,
+      "lane": 2,
+      "chapter_offset_s": 11.0,
+      "used_s": 15.25
+    },
+    {
+      "dataset": "waymo",
+      "scene": "322492347634_0_200",
+      "mode": "extreme_01",
+      "difficulty": "extreme",
+      "hd_score": 91.42857142857143,
+      "rc": 100.0,
+      "lane": 2,
+      "chapter_offset_s": 26.25,
+      "used_s": 12.5
+    },
+    {
+      "dataset": "nuscenes",
+      "scene": "scene-0071",
+      "mode": "extreme_01",
+      "difficulty": "extreme",
+      "hd_score": 89.64285714285714,
+      "rc": 100.0,
+      "lane": 2,
+      "chapter_offset_s": 38.75,
+      "used_s": 20.0
+    },
+    {
+      "dataset": "pandaset",
+      "scene": "053",
+      "mode": "extreme_01",
+      "difficulty": "extreme",
+      "hd_score": 82.85714285714286,
+      "rc": 100.0,
+      "lane": 2,
+      "chapter_offset_s": 58.75,
+      "used_s": 1.25
+    }
+  ],
+  "selection_rule": "HD >= 80; descending HD then RC; unique physical scene within each difficulty; balance three lanes until 60 seconds each; trim only the last episode per lane",
+  "timing": "Original real time; repeated frames only to encode 30 fps",
+  "overlays": "Difficulty label only on HUGSIM; original NAVSIM annotations retained"
+}

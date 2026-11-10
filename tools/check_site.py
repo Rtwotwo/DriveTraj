@@ -17,7 +17,7 @@ for r in p.refs:
  if r.startswith(('http:','https:','mailto:','data:')):continue
  if r.startswith('#'):
   if len(r)>1:assert r[1:] in p.ids,r
- else:assert (SITE/r.split('#')[0]).is_file(),r
+ else:assert (SITE/r.split('#')[0].split('?')[0]).is_file(),r
 nav=json.loads((SITE/'assets/data/navtest-cases.json').read_text())
 assert nav['count']==41==len(nav['cases'])
 assert len({x['token'] for x in nav['cases']})==41
@@ -25,7 +25,10 @@ for x in nav['cases']:
  assert x['scores']['DriveTraj']>=95
  assert all(v<80 for k,v in x['scores'].items() if k!='DriveTraj')
 hug=json.loads((SITE/'assets/hugsim-selection.json').read_text())
-assert len(hug)==4 and len({x['dataset'] for x in hug})==4
+assert len(hug)==51 and len({x['dataset'] for x in hug})==4
+assert {x['difficulty'] for x in hug}=={'easy','medium','hard','extreme'}
+assert len({(x['dataset'],x['scene'],x['mode']) for x in hug})==51
+assert all(x['hd_score']>=80 for x in hug)
 for x in nav['cases']+hug:
  for k in ['video','poster']:assert (SITE/x[k]).is_file(),x[k]
 for name,count in [('navtest-scores.csv',12146),('hugsim-scores.csv',345)]:
@@ -39,4 +42,10 @@ for f in SITE.rglob('*'):
   t=f.read_text(encoding='utf-8')
   assert not re.search(r'/data/xinyao/|C:\\Users\\|8\.130\.174\.55|\.aris/',t),('internal path',f)
 assert len(list((SITE/'assets/videos/navtest').glob('*.mp4')))==41
-print('PASS: anchors, local references, 41 NAVTEST videos, 4 HUGSIM videos, score counts, file sizes, public-path checks.')
+
+
+edit=json.loads((SITE/'assets/data/demo-edit.json').read_text())
+assert edit['duration_s']>300 and edit['navtest_cases']==41
+assert {x['difficulty'] for x in edit['hugsim_selection']}=={'easy','medium','hard','extreme'}
+
+print('PASS: references, 41 NAVTEST cases, 51 HUGSIM episodes, four difficulties, score counts, long-demo manifest, sizes, UTF-8, public paths.')

@@ -49,17 +49,39 @@ getJSON('assets/data/navtest-cases.json').then(data => {
 }).catch(e=>reportError($('#navtest .container'),e));
 getJSON('assets/hugsim-selection.json').then(data=>{
   const names={kitti360:'KITTI-360',nuscenes:'nuScenes',pandaset:'PandaSet',waymo:'Waymo'};
-  const tabs=$('#hugsim-tabs');
+  const difficulties=['easy','medium','hard','extreme'];
+  const tabs=$('#hugsim-tabs'),source=$('#hug-source'),select=$('#hug-select');
+  let difficulty='easy',items=[],current=0;
   function show(index){
-    const item=data[index];
-    tabs.querySelectorAll('button').forEach((b,i)=>b.setAttribute('aria-pressed',String(i===index)));
+    if(!items.length)return;
+    current=(index+items.length)%items.length;
+    const item=items[current];select.value=String(current);
     setVideo($('#hug-video'),item.video,item.poster);
     $('#hug-dataset').textContent=names[item.dataset];
-    $('#hug-scene').textContent=`${item.scene} · ${item.mode}`;
-    $('#hug-meta').textContent=`${item.duration_s.toFixed(2)} s · Full selected episode · Stage 2 Scale`;
+    $('#hug-scene').textContent=`${item.scene} \u00b7 ${item.mode}`;
+    $('#hug-meta').textContent=`${item.duration_s.toFixed(2)} s \u00b7 DriveTraj-Scale Stage 2`;
     $('#hug-rc').textContent=item.rc.toFixed(2);$('#hug-hd').textContent=item.hd_score.toFixed(2);
-    $('#hug-download').href=item.video;
+    $('#hug-download').href=item.video;$('#hug-count').textContent=`${current+1} / ${items.length}`;
+    const grid=$('#hug-thumbs');grid.replaceChildren();
+    const offset=Math.floor(current/6)*6;
+    items.slice(offset,offset+6).forEach((x,j)=>{
+      const b=document.createElement('button');b.type='button';b.className='episode-card';
+      b.setAttribute('aria-pressed',String(offset+j===current));
+      const img=document.createElement('img');img.src=x.poster;img.alt=`${names[x.dataset]} ${x.scene}`;img.loading='lazy';
+      const label=document.createElement('span');label.textContent=`${names[x.dataset]} \u00b7 ${x.scene}`;
+      b.append(img,label);b.addEventListener('click',()=>show(offset+j));grid.append(b);
+    });
   }
-  data.forEach((item,index)=>{const b=document.createElement('button');b.textContent=names[item.dataset];b.type='button';b.addEventListener('click',()=>show(index));tabs.append(b);});
-  show(0);
+  function populate(){
+    source.querySelectorAll('option').forEach(o=>{o.disabled=o.value!=='all'&&!data.some(x=>x.difficulty===difficulty&&x.dataset===o.value)});
+    if(source.selectedOptions[0].disabled)source.value='all';
+    items=data.filter(x=>x.difficulty===difficulty&&(source.value==='all'||x.dataset===source.value));
+    tabs.querySelectorAll('button').forEach((b,i)=>b.setAttribute('aria-pressed',String(difficulties[i]===difficulty)));
+    select.replaceChildren(...items.map((x,i)=>{const o=document.createElement('option');o.value=String(i);o.textContent=`${names[x.dataset]} \u00b7 ${x.scene} \u00b7 ${x.mode}`;return o;}));
+    show(0);
+  }
+  difficulties.forEach(d=>{const b=document.createElement('button');b.type='button';b.textContent=`${d[0].toUpperCase()+d.slice(1)} (${data.filter(x=>x.difficulty===d).length})`;b.addEventListener('click',()=>{difficulty=d;populate()});tabs.append(b)});
+  source.addEventListener('change',populate);select.addEventListener('change',()=>show(Number(select.value)));
+  $('#hug-prev').addEventListener('click',()=>show(current-1));$('#hug-next').addEventListener('click',()=>show(current+1));
+  populate();
 }).catch(e=>reportError($('#hugsim'),e));
