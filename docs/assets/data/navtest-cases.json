@@ -1,0 +1,542 @@
+{
+  "count": 41,
+  "selection": "DriveTraj >=95 and each baseline <80; zero-score baselines first",
+  "full_evaluation_scenes": 12146,
+  "display": "Fixed-start predictions rolled out over four seconds, followed by a one-second hold; not model replanning",
+  "front_projection": "Recomputed at every recorded-camera update using current pose and calibration",
+  "cases": [
+    {
+      "token": "10909749099354e6",
+      "log": "2021.09.16.19.27.01_veh-45_01749_03230",
+      "scores": {
+        "DriveTraj": 100.0,
+        "FPD-Drive-Pro": 0.0,
+        "ChainFlow-VLA": 0.0,
+        "DrivoR": 0.0
+      },
+      "zero_baselines": 3,
+      "video": "assets/videos/navtest/10909749099354e6.mp4",
+      "poster": "assets/images/posters/10909749099354e6.jpg"
+    },
+    {
+      "token": "1a0605b15ce0596b",
+      "log": "2021.10.06.07.26.10_veh-52_01245_02064",
+      "scores": {
+        "DriveTraj": 100.0,
+        "FPD-Drive-Pro": 0.0,
+        "ChainFlow-VLA": 0.0,
+        "DrivoR": 0.0
+      },
+      "zero_baselines": 3,
+      "video": "assets/videos/navtest/1a0605b15ce0596b.mp4",
+      "poster": "assets/images/posters/1a0605b15ce0596b.jpg"
+    },
+    {
+      "token": "52c6827af61d5b87",
+      "log": "2021.06.28.18.03.27_veh-14_00620_01581",
+      "scores": {
+        "DriveTraj": 100.0,
+        "FPD-Drive-Pro": 0.0,
+        "ChainFlow-VLA": 0.0,
+        "DrivoR": 0.0
+      },
+      "zero_baselines": 3,
+      "video": "assets/videos/navtest/52c6827af61d5b87.mp4",
+      "poster": "assets/images/posters/52c6827af61d5b87.jpg"
+    },
+    {
+      "token": "6f8c03f8038757cc",
+      "log": "2021.09.16.19.27.01_veh-45_01749_03230",
+      "scores": {
+        "DriveTraj": 100.0,
+        "FPD-Drive-Pro": 0.0,
+        "ChainFlow-VLA": 0.0,
+        "DrivoR": 0.0
+      },
+      "zero_baselines": 3,
+      "video": "assets/videos/navtest/6f8c03f8038757cc.mp4",
+      "poster": "assets/images/posters/6f8c03f8038757cc.jpg"
+    },
+    {
+      "token": "7cead15dfaab593e",
+      "log": "2021.09.29.19.02.14_veh-28_00964_01689",
+      "scores": {
+        "DriveTraj": 100.0,
+        "FPD-Drive-Pro": 0.0,
+        "ChainFlow-VLA": 0.0,
+        "DrivoR": 0.0
+      },
+      "zero_baselines": 3,
+      "video": "assets/videos/navtest/7cead15dfaab593e.mp4",
+      "poster": "assets/images/posters/7cead15dfaab593e.jpg"
+    },
+    {
+      "token": "a9956fd52aa15f39",
+      "log": "2021.10.06.07.26.10_veh-52_01245_02064",
+      "scores": {
+        "DriveTraj": 100.0,
+        "FPD-Drive-Pro": 0.0,
+        "ChainFlow-VLA": 0.0,
+        "DrivoR": 0.0
+      },
+      "zero_baselines": 3,
+      "video": "assets/videos/navtest/a9956fd52aa15f39.mp4",
+      "poster": "assets/images/posters/a9956fd52aa15f39.jpg"
+    },
+    {
+      "token": "f512480c969a5eab",
+      "log": "2021.06.03.17.06.58_veh-35_02571_02742",
+      "scores": {
+        "DriveTraj": 100.0,
+        "FPD-Drive-Pro": 0.0,
+        "ChainFlow-VLA": 0.0,
+        "DrivoR": 0.0
+      },
+      "zero_baselines": 3,
+      "video": "assets/videos/navtest/f512480c969a5eab.mp4",
+      "poster": "assets/images/posters/f512480c969a5eab.jpg"
+    },
+    {
+      "token": "94d209006f485164",
+      "log": "2021.06.28.18.03.27_veh-14_00620_01581",
+      "scores": {
+        "DriveTraj": 98.96766705562287,
+        "FPD-Drive-Pro": 0.0,
+        "ChainFlow-VLA": 0.0,
+        "DrivoR": 0.0
+      },
+      "zero_baselines": 3,
+      "video": "assets/videos/navtest/94d209006f485164.mp4",
+      "poster": "assets/images/posters/94d209006f485164.jpg"
+    },
+    {
+      "token": "70d9d518ad0f5382",
+      "log": "2021.09.29.19.02.14_veh-28_00964_01689",
+      "scores": {
+        "DriveTraj": 98.43845427898809,
+        "FPD-Drive-Pro": 0.0,
+        "ChainFlow-VLA": 0.0,
+        "DrivoR": 0.0
+      },
+      "zero_baselines": 3,
+      "video": "assets/videos/navtest/70d9d518ad0f5382.mp4",
+      "poster": "assets/images/posters/70d9d518ad0f5382.jpg"
+    },
+    {
+      "token": "1979ed31b57b59ea",
+      "log": "2021.06.03.13.55.17_veh-35_02866_03582",
+      "scores": {
+        "DriveTraj": 97.90548604170084,
+        "FPD-Drive-Pro": 0.0,
+        "ChainFlow-VLA": 0.0,
+        "DrivoR": 0.0
+      },
+      "zero_baselines": 3,
+      "video": "assets/videos/navtest/1979ed31b57b59ea.mp4",
+      "poster": "assets/images/posters/1979ed31b57b59ea.jpg"
+    },
+    {
+      "token": "b770bd5be66d5339",
+      "log": "2021.06.03.13.55.17_veh-35_02866_03582",
+      "scores": {
+        "DriveTraj": 97.69727127182026,
+        "FPD-Drive-Pro": 0.0,
+        "ChainFlow-VLA": 0.0,
+        "DrivoR": 0.0
+      },
+      "zero_baselines": 3,
+      "video": "assets/videos/navtest/b770bd5be66d5339.mp4",
+      "poster": "assets/images/posters/b770bd5be66d5339.jpg"
+    },
+    {
+      "token": "c3d6016d73645955",
+      "log": "2021.06.28.16.29.11_veh-38_03263_03766",
+      "scores": {
+        "DriveTraj": 96.8369349771731,
+        "FPD-Drive-Pro": 0.0,
+        "ChainFlow-VLA": 0.0,
+        "DrivoR": 0.0
+      },
+      "zero_baselines": 3,
+      "video": "assets/videos/navtest/c3d6016d73645955.mp4",
+      "poster": "assets/images/posters/c3d6016d73645955.jpg"
+    },
+    {
+      "token": "f9ed38d9ddfa531e",
+      "log": "2021.10.06.08.16.17_veh-52_00181_00574",
+      "scores": {
+        "DriveTraj": 95.66191561691443,
+        "FPD-Drive-Pro": 0.0,
+        "ChainFlow-VLA": 0.0,
+        "DrivoR": 0.0
+      },
+      "zero_baselines": 3,
+      "video": "assets/videos/navtest/f9ed38d9ddfa531e.mp4",
+      "poster": "assets/images/posters/f9ed38d9ddfa531e.jpg"
+    },
+    {
+      "token": "38b4ff11393c5dec",
+      "log": "2021.09.29.18.19.40_veh-28_00438_00833",
+      "scores": {
+        "DriveTraj": 100.0,
+        "FPD-Drive-Pro": 58.333333333333336,
+        "ChainFlow-VLA": 0.0,
+        "DrivoR": 0.0
+      },
+      "zero_baselines": 2,
+      "video": "assets/videos/navtest/38b4ff11393c5dec.mp4",
+      "poster": "assets/images/posters/38b4ff11393c5dec.jpg"
+    },
+    {
+      "token": "6e3cf172a2755fae",
+      "log": "2021.09.29.14.44.26_veh-28_00528_00992",
+      "scores": {
+        "DriveTraj": 100.0,
+        "FPD-Drive-Pro": 0.0,
+        "ChainFlow-VLA": 58.333333333333336,
+        "DrivoR": 0.0
+      },
+      "zero_baselines": 2,
+      "video": "assets/videos/navtest/6e3cf172a2755fae.mp4",
+      "poster": "assets/images/posters/6e3cf172a2755fae.jpg"
+    },
+    {
+      "token": "885f450f0b875861",
+      "log": "2021.09.16.19.49.00_veh-42_00990_01609",
+      "scores": {
+        "DriveTraj": 100.0,
+        "FPD-Drive-Pro": 0.0,
+        "ChainFlow-VLA": 58.333333333333336,
+        "DrivoR": 0.0
+      },
+      "zero_baselines": 2,
+      "video": "assets/videos/navtest/885f450f0b875861.mp4",
+      "poster": "assets/images/posters/885f450f0b875861.jpg"
+    },
+    {
+      "token": "3921f38b62d55f1a",
+      "log": "2021.06.28.16.29.11_veh-38_03263_03766",
+      "scores": {
+        "DriveTraj": 98.20738579932367,
+        "FPD-Drive-Pro": 58.333333333333336,
+        "ChainFlow-VLA": 0.0,
+        "DrivoR": 0.0
+      },
+      "zero_baselines": 2,
+      "video": "assets/videos/navtest/3921f38b62d55f1a.mp4",
+      "poster": "assets/images/posters/3921f38b62d55f1a.jpg"
+    },
+    {
+      "token": "d7c78dbb6fb25194",
+      "log": "2021.06.28.18.03.27_veh-14_00620_01581",
+      "scores": {
+        "DriveTraj": 97.18400759326698,
+        "FPD-Drive-Pro": 0.0,
+        "ChainFlow-VLA": 0.0,
+        "DrivoR": 58.333333333333336
+      },
+      "zero_baselines": 2,
+      "video": "assets/videos/navtest/d7c78dbb6fb25194.mp4",
+      "poster": "assets/images/posters/d7c78dbb6fb25194.jpg"
+    },
+    {
+      "token": "15bc35249e5656b6",
+      "log": "2021.06.28.20.24.43_veh-38_03385_04952",
+      "scores": {
+        "DriveTraj": 96.78034679313453,
+        "FPD-Drive-Pro": 0.0,
+        "ChainFlow-VLA": 58.333333333333336,
+        "DrivoR": 0.0
+      },
+      "zero_baselines": 2,
+      "video": "assets/videos/navtest/15bc35249e5656b6.mp4",
+      "poster": "assets/images/posters/15bc35249e5656b6.jpg"
+    },
+    {
+      "token": "a06715f1cb8358c0",
+      "log": "2021.06.28.15.02.02_veh-38_02398_02848",
+      "scores": {
+        "DriveTraj": 100.0,
+        "FPD-Drive-Pro": 0.0,
+        "ChainFlow-VLA": 57.4816217354774,
+        "DrivoR": 57.566706359103115
+      },
+      "zero_baselines": 1,
+      "video": "assets/videos/navtest/a06715f1cb8358c0.mp4",
+      "poster": "assets/images/posters/a06715f1cb8358c0.jpg"
+    },
+    {
+      "token": "5593db2f64115fbf",
+      "log": "2021.09.29.19.02.14_veh-28_00964_01689",
+      "scores": {
+        "DriveTraj": 100.0,
+        "FPD-Drive-Pro": 0.0,
+        "ChainFlow-VLA": 57.28228124296527,
+        "DrivoR": 58.333333333333336
+      },
+      "zero_baselines": 1,
+      "video": "assets/videos/navtest/5593db2f64115fbf.mp4",
+      "poster": "assets/images/posters/5593db2f64115fbf.jpg"
+    },
+    {
+      "token": "ab40048b88b257c3",
+      "log": "2021.06.03.13.55.17_veh-35_02866_03582",
+      "scores": {
+        "DriveTraj": 100.0,
+        "FPD-Drive-Pro": 58.333333333333336,
+        "ChainFlow-VLA": 0.0,
+        "DrivoR": 58.333333333333336
+      },
+      "zero_baselines": 1,
+      "video": "assets/videos/navtest/ab40048b88b257c3.mp4",
+      "poster": "assets/images/posters/ab40048b88b257c3.jpg"
+    },
+    {
+      "token": "cb50b764d69557b9",
+      "log": "2021.08.30.14.54.34_veh-40_00334_00419",
+      "scores": {
+        "DriveTraj": 100.0,
+        "FPD-Drive-Pro": 0.0,
+        "ChainFlow-VLA": 58.333333333333336,
+        "DrivoR": 58.333333333333336
+      },
+      "zero_baselines": 1,
+      "video": "assets/videos/navtest/cb50b764d69557b9.mp4",
+      "poster": "assets/images/posters/cb50b764d69557b9.jpg"
+    },
+    {
+      "token": "0503cc398e2656be",
+      "log": "2021.09.29.19.02.14_veh-28_00964_01689",
+      "scores": {
+        "DriveTraj": 100.0,
+        "FPD-Drive-Pro": 58.333333333333336,
+        "ChainFlow-VLA": 57.43787119390797,
+        "DrivoR": 56.77238344569212
+      },
+      "zero_baselines": 0,
+      "video": "assets/videos/navtest/0503cc398e2656be.mp4",
+      "poster": "assets/images/posters/0503cc398e2656be.jpg"
+    },
+    {
+      "token": "0f24ec666e145cab",
+      "log": "2021.08.30.16.16.44_veh-40_01099_01351",
+      "scores": {
+        "DriveTraj": 100.0,
+        "FPD-Drive-Pro": 58.333333333333336,
+        "ChainFlow-VLA": 58.333333333333336,
+        "DrivoR": 58.333333333333336
+      },
+      "zero_baselines": 0,
+      "video": "assets/videos/navtest/0f24ec666e145cab.mp4",
+      "poster": "assets/images/posters/0f24ec666e145cab.jpg"
+    },
+    {
+      "token": "166b654c0db95953",
+      "log": "2021.09.09.18.29.25_veh-39_00427_00556",
+      "scores": {
+        "DriveTraj": 100.0,
+        "FPD-Drive-Pro": 58.333333333333336,
+        "ChainFlow-VLA": 58.333333333333336,
+        "DrivoR": 58.333333333333336
+      },
+      "zero_baselines": 0,
+      "video": "assets/videos/navtest/166b654c0db95953.mp4",
+      "poster": "assets/images/posters/166b654c0db95953.jpg"
+    },
+    {
+      "token": "1ed8702288c15895",
+      "log": "2021.09.29.19.02.14_veh-28_03198_03360",
+      "scores": {
+        "DriveTraj": 100.0,
+        "FPD-Drive-Pro": 58.333333333333336,
+        "ChainFlow-VLA": 58.333333333333336,
+        "DrivoR": 58.333333333333336
+      },
+      "zero_baselines": 0,
+      "video": "assets/videos/navtest/1ed8702288c15895.mp4",
+      "poster": "assets/images/posters/1ed8702288c15895.jpg"
+    },
+    {
+      "token": "3b36add3be02517e",
+      "log": "2021.09.16.19.27.01_veh-45_01749_03230",
+      "scores": {
+        "DriveTraj": 100.0,
+        "FPD-Drive-Pro": 58.333333333333336,
+        "ChainFlow-VLA": 58.333333333333336,
+        "DrivoR": 58.333333333333336
+      },
+      "zero_baselines": 0,
+      "video": "assets/videos/navtest/3b36add3be02517e.mp4",
+      "poster": "assets/images/posters/3b36add3be02517e.jpg"
+    },
+    {
+      "token": "585a681f4ad95682",
+      "log": "2021.08.30.14.54.34_veh-40_00439_00835",
+      "scores": {
+        "DriveTraj": 100.0,
+        "FPD-Drive-Pro": 58.333333333333336,
+        "ChainFlow-VLA": 58.333333333333336,
+        "DrivoR": 58.333333333333336
+      },
+      "zero_baselines": 0,
+      "video": "assets/videos/navtest/585a681f4ad95682.mp4",
+      "poster": "assets/images/posters/585a681f4ad95682.jpg"
+    },
+    {
+      "token": "92aea46cab86531b",
+      "log": "2021.08.30.13.45.25_veh-40_00610_00771",
+      "scores": {
+        "DriveTraj": 100.0,
+        "FPD-Drive-Pro": 58.333333333333336,
+        "ChainFlow-VLA": 58.333333333333336,
+        "DrivoR": 58.333333333333336
+      },
+      "zero_baselines": 0,
+      "video": "assets/videos/navtest/92aea46cab86531b.mp4",
+      "poster": "assets/images/posters/92aea46cab86531b.jpg"
+    },
+    {
+      "token": "a7fa674076175448",
+      "log": "2021.10.06.08.16.17_veh-52_00032_00170",
+      "scores": {
+        "DriveTraj": 100.0,
+        "FPD-Drive-Pro": 58.333333333333336,
+        "ChainFlow-VLA": 58.333333333333336,
+        "DrivoR": 58.333333333333336
+      },
+      "zero_baselines": 0,
+      "video": "assets/videos/navtest/a7fa674076175448.mp4",
+      "poster": "assets/images/posters/a7fa674076175448.jpg"
+    },
+    {
+      "token": "ac2da3da332b5a04",
+      "log": "2021.10.06.08.16.17_veh-52_01949_02501",
+      "scores": {
+        "DriveTraj": 100.0,
+        "FPD-Drive-Pro": 58.333333333333336,
+        "ChainFlow-VLA": 58.333333333333336,
+        "DrivoR": 58.333333333333336
+      },
+      "zero_baselines": 0,
+      "video": "assets/videos/navtest/ac2da3da332b5a04.mp4",
+      "poster": "assets/images/posters/ac2da3da332b5a04.jpg"
+    },
+    {
+      "token": "b894f0e8e2875363",
+      "log": "2021.09.09.18.29.25_veh-39_00427_00556",
+      "scores": {
+        "DriveTraj": 100.0,
+        "FPD-Drive-Pro": 58.333333333333336,
+        "ChainFlow-VLA": 58.333333333333336,
+        "DrivoR": 58.333333333333336
+      },
+      "zero_baselines": 0,
+      "video": "assets/videos/navtest/b894f0e8e2875363.mp4",
+      "poster": "assets/images/posters/b894f0e8e2875363.jpg"
+    },
+    {
+      "token": "e429babc45b05f4e",
+      "log": "2021.09.29.19.02.14_veh-28_00273_00514",
+      "scores": {
+        "DriveTraj": 100.0,
+        "FPD-Drive-Pro": 58.333333333333336,
+        "ChainFlow-VLA": 58.333333333333336,
+        "DrivoR": 58.333333333333336
+      },
+      "zero_baselines": 0,
+      "video": "assets/videos/navtest/e429babc45b05f4e.mp4",
+      "poster": "assets/images/posters/e429babc45b05f4e.jpg"
+    },
+    {
+      "token": "fe94da01811e53fc",
+      "log": "2021.09.09.18.29.25_veh-39_00427_00556",
+      "scores": {
+        "DriveTraj": 100.0,
+        "FPD-Drive-Pro": 58.333333333333336,
+        "ChainFlow-VLA": 58.333333333333336,
+        "DrivoR": 58.333333333333336
+      },
+      "zero_baselines": 0,
+      "video": "assets/videos/navtest/fe94da01811e53fc.mp4",
+      "poster": "assets/images/posters/fe94da01811e53fc.jpg"
+    },
+    {
+      "token": "b62d1a9194025d38",
+      "log": "2021.08.30.14.54.34_veh-40_00439_00835",
+      "scores": {
+        "DriveTraj": 99.51079605246778,
+        "FPD-Drive-Pro": 58.333333333333336,
+        "ChainFlow-VLA": 58.333333333333336,
+        "DrivoR": 56.50551140233182
+      },
+      "zero_baselines": 0,
+      "video": "assets/videos/navtest/b62d1a9194025d38.mp4",
+      "poster": "assets/images/posters/b62d1a9194025d38.jpg"
+    },
+    {
+      "token": "4fbfc7dc71db50e2",
+      "log": "2021.10.06.07.26.10_veh-52_00006_00398",
+      "scores": {
+        "DriveTraj": 98.75171687239455,
+        "FPD-Drive-Pro": 57.731181720595806,
+        "ChainFlow-VLA": 56.62072617975775,
+        "DrivoR": 54.76355924429902
+      },
+      "zero_baselines": 0,
+      "video": "assets/videos/navtest/4fbfc7dc71db50e2.mp4",
+      "poster": "assets/images/posters/4fbfc7dc71db50e2.jpg"
+    },
+    {
+      "token": "e0b92501aa5051b1",
+      "log": "2021.06.03.18.47.39_veh-35_00257_00492",
+      "scores": {
+        "DriveTraj": 99.03669254636847,
+        "FPD-Drive-Pro": 58.17535953508711,
+        "ChainFlow-VLA": 57.66573217203889,
+        "DrivoR": 56.07852595353613
+      },
+      "zero_baselines": 0,
+      "video": "assets/videos/navtest/e0b92501aa5051b1.mp4",
+      "poster": "assets/images/posters/e0b92501aa5051b1.jpg"
+    },
+    {
+      "token": "6fed9368351f54d5",
+      "log": "2021.05.25.14.16.10_veh-35_01100_01664",
+      "scores": {
+        "DriveTraj": 99.10387956052521,
+        "FPD-Drive-Pro": 58.333333333333336,
+        "ChainFlow-VLA": 58.333333333333336,
+        "DrivoR": 58.333333333333336
+      },
+      "zero_baselines": 0,
+      "video": "assets/videos/navtest/6fed9368351f54d5.mp4",
+      "poster": "assets/images/posters/6fed9368351f54d5.jpg"
+    },
+    {
+      "token": "0e08da5fbc735956",
+      "log": "2021.05.25.17.54.41_veh-35_04111_04288",
+      "scores": {
+        "DriveTraj": 95.98067171497094,
+        "FPD-Drive-Pro": 56.928659130336676,
+        "ChainFlow-VLA": 58.333333333333336,
+        "DrivoR": 58.333333333333336
+      },
+      "zero_baselines": 0,
+      "video": "assets/videos/navtest/0e08da5fbc735956.mp4",
+      "poster": "assets/images/posters/0e08da5fbc735956.jpg"
+    },
+    {
+      "token": "e9fcec80707952c3",
+      "log": "2021.06.28.20.24.43_veh-38_03385_04952",
+      "scores": {
+        "DriveTraj": 100.0,
+        "FPD-Drive-Pro": 70.29053323851412,
+        "ChainFlow-VLA": 76.35052632257008,
+        "DrivoR": 79.13627804885971
+      },
+      "zero_baselines": 0,
+      "video": "assets/videos/navtest/e9fcec80707952c3.mp4",
+      "poster": "assets/images/posters/e9fcec80707952c3.jpg"
+    }
+  ]
+}

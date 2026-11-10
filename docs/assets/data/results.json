@@ -1,0 +1,104 @@
+{
+  "updated": "2026-11-11",
+  "score_scale": "0-100 unless stated otherwise",
+  "training_scenes": {
+    "real": 103263,
+    "synthetic": 129409,
+    "combined": 232672
+  },
+  "main": [
+    {
+      "model": "DriveTraj",
+      "stage": 1,
+      "navtest_pdms": 94.76,
+      "hugsim_rc": 51.88,
+      "hugsim_hd": 36.88
+    },
+    {
+      "model": "DriveTraj",
+      "stage": 2,
+      "navtest_pdms": 95.14,
+      "hugsim_rc": 55.22,
+      "hugsim_hd": 44.05
+    },
+    {
+      "model": "DriveTraj-Scale",
+      "stage": 1,
+      "navtest_pdms": 95.09,
+      "hugsim_rc": 54.05,
+      "hugsim_hd": 43.97
+    },
+    {
+      "model": "DriveTraj-Scale",
+      "stage": 2,
+      "navtest_pdms": 95.55200470389244,
+      "hugsim_rc": 56.09177528204969,
+      "hugsim_hd": 46.69171977784744
+    }
+  ],
+  "epdms": {
+    "stage": 1,
+    "benchmark_specific_selection": true,
+    "base": {
+      "navtest": 91.15,
+      "navhard": 50.8
+    },
+    "scale": {
+      "navtest": 91.32,
+      "navhard": 56.13
+    }
+  },
+  "navtest_comparison": {
+    "ours": {
+      "pdms": 95.55200470389576,
+      "n": 12146,
+      "failed": 0
+    },
+    "fpd_pro": {
+      "pdms": 95.69392514326651,
+      "n": 12146,
+      "failed": 0
+    },
+    "chainflow": {
+      "pdms": 94.84683853789022,
+      "n": 12146,
+      "failed": 0
+    },
+    "drivor": {
+      "pdms": 94.582934998927,
+      "n": 12146,
+      "failed": 0
+    }
+  },
+  "demo_checkpoint": {
+    "model": "DriveTraj-Scale Stage 2",
+    "epoch_zero_based": 11,
+    "navtest_pdms": 95.55200470389244,
+    "sha256": "03bfda42ae0d1480f25b5adc9e8fe6e958b3c2e13075b6c2af3d447988b7fbe9"
+  },
+  "hugsim": {
+    "scenarios": 345,
+    "failed": 0,
+    "score_csv_scale": "0-1",
+    "scorer_coefficients": [
+      1,
+      1,
+      0,
+      5,
+      5,
+      2
+    ],
+    "coefficient_order": [
+      "NC",
+      "DAC",
+      "DDC",
+      "TTC",
+      "progress",
+      "comfort"
+    ],
+    "seed": 2,
+    "simulation_step_s": 0.25,
+    "replan_interval_s": 0.25
+  },
+  "configuration_note": "Current Base core recipe omits Rank; displayed Scale checkpoint retains Rank. EPDMS uses Stage 1, not the Stage 2 video checkpoint."
+}

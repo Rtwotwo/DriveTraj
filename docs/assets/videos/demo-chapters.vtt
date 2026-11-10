@@ -1,0 +1,34 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:05.000
+From one demonstration to many plans
+
+00:00:05.000 --> 00:00:23.000
+Construct, supervise, and refine
+
+00:00:23.000 --> 00:00:29.000
+Model overview
+
+00:00:29.000 --> 00:00:34.067
+NAVTEST: 10909749099354e6
+
+00:00:34.067 --> 00:00:39.134
+NAVTEST: 7cead15dfaab593e
+
+00:00:39.133 --> 00:00:44.200
+NAVTEST: 6f8c03f8038757cc
+
+00:00:44.200 --> 00:00:54.200
+HUGSIM: kitti360
+
+00:00:54.200 --> 00:01:04.200
+HUGSIM: nuscenes
+
+00:01:04.200 --> 00:01:14.200
+HUGSIM: pandaset
+
+00:01:14.200 --> 00:01:24.200
+HUGSIM: waymo
+
+00:01:24.200 --> 00:01:30.200
+Full evaluation results

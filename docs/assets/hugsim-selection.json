@@ -1,0 +1,54 @@
+[
+  {
+    "dataset": "kitti360",
+    "scene": "0000_10320_10520",
+    "mode": "medium_00",
+    "difficulty": "medium",
+    "rc": 100.0,
+    "hd_score": 99.37282229965157,
+    "duration_s": 51.25,
+    "video": "assets/videos/hugsim/kitti360-0000_10320_10520-medium_00.mp4",
+    "poster": "assets/images/posters/kitti360-0000_10320_10520-medium_00.jpg",
+    "selection": "Highest HD-Score in this data source; first listed episode breaks ties",
+    "crop": "Top three camera views; full episode timing"
+  },
+  {
+    "dataset": "nuscenes",
+    "scene": "scene-0166",
+    "mode": "medium_01",
+    "difficulty": "medium",
+    "rc": 100.0,
+    "hd_score": 100.0,
+    "duration_s": 12.5,
+    "video": "assets/videos/hugsim/nuscenes-scene-0166-medium_01.mp4",
+    "poster": "assets/images/posters/nuscenes-scene-0166-medium_01.jpg",
+    "selection": "Highest HD-Score in this data source; first listed episode breaks ties",
+    "crop": "Top three camera views; full episode timing"
+  },
+  {
+    "dataset": "pandaset",
+    "scene": "039",
+    "mode": "medium_02",
+    "difficulty": "medium",
+    "rc": 100.0,
+    "hd_score": 99.3920972644377,
+    "duration_s": 11.75,
+    "video": "assets/videos/hugsim/pandaset-039-medium_02.mp4",
+    "poster": "assets/images/posters/pandaset-039-medium_02.jpg",
+    "selection": "Highest HD-Score in this data source; first listed episode breaks ties",
+    "crop": "Top three camera views; full episode timing"
+  },
+  {
+    "dataset": "waymo",
+    "scene": "163453191685_0_200",
+    "mode": "medium_01",
+    "difficulty": "medium",
+    "rc": 100.0,
+    "hd_score": 100.0,
+    "duration_s": 27.0,
+    "video": "assets/videos/hugsim/waymo-163453191685_0_200-medium_01.mp4",
+    "poster": "assets/images/posters/waymo-163453191685_0_200-medium_01.jpg",
+    "selection": "Highest HD-Score in this data source; first listed episode breaks ties",
+    "crop": "Top three camera views; full episode timing"
+  }
+]
