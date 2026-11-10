@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="970" height="250" viewBox="0 10 970 250" role="img" aria-labelledby="title desc">
+  <title id="title">DriveTraj</title>
+  <desc id="desc">A branching trajectory emblem and a two-tone DriveTraj wordmark.</desc>
+  <rect x="30" y="45" width="174" height="174" rx="45" fill="#203632"/>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M117 191V141C117 109 87 101 79 72" stroke="#f7f8f4" stroke-width="11"/>
+    <path d="M117 141C117 107 151 101 159 72" stroke="#df7060" stroke-width="11"/>
+    <path d="M117 139V72" stroke="#83b6a3" stroke-width="8"/>
+  </g>
+  <circle cx="117" cy="191" r="8" fill="#f7f8f4"/>
+  <text x="242" y="188" font-family="Arial, Helvetica, sans-serif" font-size="176" font-weight="800" letter-spacing="-8" fill="#203632">Drive<tspan fill="#176d60">Traj</tspan></text>
+  <path d="M755 221C821 219 884 222 934 205" fill="none" stroke="#df7060" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="755" cy="221" r="5.5" fill="#df7060"/>
+  <circle cx="934" cy="205" r="5.5" fill="#df7060"/>
+</svg>
