@@ -1,5 +1,5 @@
 {
-  "duration_s": 327.4,
+  "duration_s": 321.8,
   "resolution": [
     2560,
     1440
@@ -9,38 +9,43 @@
   "hugsim_episodes": 51,
   "chapters": [
     {
-      "title": "Teaser",
+      "title": "DriveTraj",
       "start": 0,
-      "duration": 8.0
+      "duration": 2.4
+    },
+    {
+      "title": "Teaser",
+      "start": 2.4,
+      "duration": 3.6
     },
     {
       "title": "Overview",
-      "start": 8.0,
-      "duration": 8.0
+      "start": 6,
+      "duration": 4.4
     },
     {
       "title": "NAVSIM",
-      "start": 16.0,
+      "start": 10.4,
       "duration": 71.4
     },
     {
       "title": "HUGSIM \u00b7 Easy",
-      "start": 87.39999999999999,
+      "start": 81.8,
       "duration": 60.0
     },
     {
       "title": "HUGSIM \u00b7 Medium",
-      "start": 147.39999999999998,
+      "start": 141.8,
       "duration": 60.0
     },
     {
       "title": "HUGSIM \u00b7 Hard",
-      "start": 207.39999999999998,
+      "start": 201.8,
       "duration": 60.0
     },
     {
       "title": "HUGSIM \u00b7 Extreme",
-      "start": 267.4,
+      "start": 261.8,
       "duration": 60.0
     }
   ],
@@ -609,5 +614,7 @@
   ],
   "selection_rule": "HD >= 80; descending HD then RC; unique physical scene within each difficulty; balance three lanes until 60 seconds each; trim only the last episode per lane",
   "timing": "Original real time; repeated frames only to encode 30 fps",
-  "overlays": "Difficulty label only on HUGSIM; original NAVSIM annotations retained"
+  "overlays": "Difficulty label only on HUGSIM; original NAVSIM annotations retained",
+  "opening": "2.4 s logo, 3.6 s panel reveal, 4.4 s overview reveal with existing-link highlights; no narration or added explanations",
+  "demo_tail_verification": "Master demo packet hashes after the opening match the previous version; web rendition is encoded from the verified master."
 }
