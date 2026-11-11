@@ -9,3 +9,7 @@ Driving logs record one executed trajectory, while a planner must generate and c
 ## Method
 
 ![DriveTraj method overview](docs/assets/images/overview.png)
+
+## License
+
+Original code in this repository is licensed under the [Apache License 2.0](LICENSE). Third-party datasets, models, and media retain their respective licenses.
